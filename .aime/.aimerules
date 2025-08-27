@@ -1,0 +1,165 @@
+# AIME Development Session - Rules & Status
+
+**Last Updated:** 2025-08-27  
+**Project ID:** aime_1756309509536_zesj0m44u
+
+## Project Overview
+This project uses the AIME Method for structured development with automatic state tracking and progress management.
+
+## Current Status
+
+### Progress Summary
+- **Total Tasks:** 72
+- **Completed:** 9 ✅
+- **In Progress:** 0 🔄  
+- **Pending:** 63 ⏳
+- **Completion Rate:** 13%
+
+### Active Plan
+## Plan for Google Maps Migration - COMPLETED
+
+### Approach:
+Replace Mapbox implementation with Google Maps API integration. This involves updating dependencies, replacing map components, and adjusting styling and functionality to work with Google Maps JavaScript API.
+
+### TODOs:
+[X] Remove Mapbox dependencies and add Google Maps API
+[X] Update environment variables for Google Maps API key
+[X] Replace MapboxMap component with GoogleMap component
+[X] Update map styling and configuration
+[X] Adjust marker and popup implementations for Google Maps
+[X] Update geolocation and map interaction handlers
+[X] Test map functionality and ensure all features work
+
+## Task Management
+
+### 🔄 Tasks In Progress
+No tasks currently in progress
+
+### ⏳ Pending Tasks  
+2. Initialize React + Node.js project structure
+3. Set up database schema (MongoDB/PostgreSQL)
+4. Configure development environment
+5. Set up basic authentication system
+6. Implement sensor data ingestion API
+7. Create database models and schemas
+8. Build data validation and quality control
+9. Set up external weather API integration
+10. Implement real-time data processing
+11. Create responsive dashboard layout
+12. Implement interactive mapping component
+13. Build sensor management interface
+14. Develop alert configuration system
+15. Create historical data visualization
+16. Build AQI calculation engine
+17. Implement trend analysis tools
+18. Create automated report generation
+19. Develop compliance monitoring dashboard
+20. Add data export functionality
+21. Implement pollutant source identification
+22. Add dispersion modeling capabilities
+23. Create predictive analytics
+24. Build mobile-responsive optimizations
+25. Add multi-language support
+26. Comprehensive testing suite
+27. Performance optimization
+28. Security audit and hardening
+29. Production deployment setup
+30. Documentation and training materials
+32. Initialize React project with Vite
+33. Set up project structure and dependencies
+34. Set up database schema and connections
+35. Create time-series database schema
+36. Integrate external weather APIs
+37. Create main dashboard layout
+38. Build real-time data visualization widgets
+39. Develop responsive design for mobile
+40. Create user authentication system
+41. Build historical data analysis tools
+42. Implement AQI calculation engine
+43. Create pollutant source identification algorithms
+44. Develop trend analysis and forecasting
+45. Build custom query interface
+46. Implement configurable alert system
+47. Set up email notification service
+48. Create in-app notification center
+49. Build alert management interface
+50. Integrate SMS gateway (optional)
+51. Build compliance monitoring dashboard
+52. Implement regulatory template system
+53. Set up scheduled report delivery
+54. Create audit trail functionality
+55. Documentation and user guides
+63. Add Mapbox access token configuration for interactive maps
+64. Implement advanced ML models for pollution forecasting
+65. Add SMS gateway integration for mobile alerts
+66. Implement real-time data validation and anomaly detection
+67. Add export functionality for historical data analysis
+68. Implement advanced analytics features including trend analysis and correlation studies
+69. Add automated report generation with PDF export capabilities
+70. Integrate external weather APIs for enhanced meteorological data
+71. Implement pollutant dispersion modeling capabilities
+72. Add mobile app support with push notifications
+
+### ✅ Completed Tasks
+1. AIME methodology documentation complete (27/08/2025)
+31. AIME Method documentation complete (27/08/2025)
+56. Remove Mapbox dependencies and add Google Maps API (27/08/2025)
+57. Update environment variables for Google Maps API key (27/08/2025)
+58. Replace MapboxMap component with GoogleMap component (27/08/2025)
+59. Update map styling and configuration (27/08/2025)
+60. Adjust marker and popup implementations for Google Maps (27/08/2025)
+61. Update geolocation and map interaction handlers (27/08/2025)
+62. Test map functionality and ensure all features work (27/08/2025)
+
+## Development Guidelines
+
+### AIME Method Layers
+1. **Customer Personas** - User types and their needs
+2. **Functions & Features** - Core functionality mapping
+3. **Experience Lists** - User interface screens and interactions
+4. **Information Lists** - Data structures and models
+5. **Knowledge Lists** - Business rules and logic
+6. **Service Lists** - Backend APIs and functions
+
+### Code Standards
+- Follow existing code patterns and conventions
+- Maintain clean, readable code structure
+- Add appropriate error handling and validation
+- Test functionality before marking tasks complete
+
+## Knowledge Base
+
+### Lessons Learned
+#### AIME Discovered
+1. When building air quality monitoring systems, it's crucial to implement proper data validation and quality control measures. Real-world sensor data can be noisy and contain outliers, so having automated validation rules helps maintain data integrity and reliability for compliance reporting.
+2. For environmental monitoring applications, using time-series databases or optimized database schemas is essential for handling large volumes of sensor data efficiently. The current SQLite implementation works for development but would need to be upgraded to a more robust solution like PostgreSQL with TimescaleDB for production use.
+3. For air quality platforms, real-time data visualization is crucial. Using Socket.IO for WebSocket connections ensures users see live updates without page refreshes. The AQI calculation should follow EPA standards for consistency and regulatory compliance.
+4. When building environmental monitoring systems, data validation is critical. Sensor data can be noisy or contain outliers, so implementing quality control checks (like detecting stuck sensors or impossible values) prevents bad data from affecting analysis and alerts.
+
+### Project Notes
+#### Current Progress
+[X] AIME methodology documentation complete
+[X] Project structure and dependencies set up
+[X] Authentication system implemented
+[X] Real-time dashboard with key metrics
+[X] Interactive map with sensor locations
+[X] Sensor management interface
+[X] Alert system with real-time notifications
+[X] Data simulation for demo purposes
+[X] Responsive design for mobile compatibility
+
+#### Next Steps
+- Advanced analytics and reporting features
+- External API integrations
+- Production database setup
+- Performance optimization
+- Security hardening
+
+#### Technical Notes
+- Using in-memory database for demo (switch to MongoDB/PostgreSQL for production)
+- Socket.IO handles real-time updates efficiently
+- AQI calculations follow EPA standards
+- Modular component structure allows easy feature additions
+
+---
+*Generated automatically by AIME Project Manager*
